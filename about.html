@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Dreamy!</title>
+  <script>
+		var t = ["Dreamy!", "Dreamy", "Dream", "Drea", "Dre", "Dr", "D", "Dr", "Dre", "Drea", "Dream", "Dreamy", "Dreamy!"];
+		var c = 0;
+		var i = setInterval(change, 2000);
+
+		function change() {
+			document.title = t[c];
+			c++;
+			if (c >= t.length) {
+				c = 0;
+			}
+		}
+	</script>
+</head>
+<body style="font-family: Bahnschrift; src:local(font.ttf)">
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link home" href="index.html">Главная 🏠</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bio active" href="#">О Нас 📃</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link projects" href="servers.html">Сервера 🚧</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact" href="links.html">Ссылки 🤙</a>
+        </li>
+      </ul>
+
+    <div class="row" style="margin: 1rem; margin-left: 5rem; margin-right: 5rem;">
+      <h5>Dreamy!✨ - Приватный сервер для Minecraft.</h5>
+      <p>И тут вы можете почитать информацию о сервере.</p>
+      <p></p>
+      <p>О сервере:</p>
+      <p>Наш основной сервер Dreamy! представляет собой выживание с установленными правилами.</p>
+      <p>На сервере игроки строят свои города, общины и даже страны! В каждой стране, городе, общине могут быть свои правила и законы,</p>
+      <p>вы должны их соблюдать!</p>
+      <p></p>
+      <p></p>
+      <p>Прочитать правила или получить помощь вы можете на сервере, нужно вписать комманду /help в чат.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Dreamy!</title>
+  <script>
+		var t = ["Dreamy!", "Dreamy", "Dream", "Drea", "Dre", "Dr", "D", "Dr", "Dre", "Drea", "Dream", "Dreamy", "Dreamy!"];
+		var c = 0;
+		var i = setInterval(change, 2000);
+
+		function change() {
+			document.title = t[c];
+			c++;
+			if (c >= t.length) {
+				c = 0;
+			}
+		}
+	</script>
+</head>
+<body style="font-family: Bahnschrift; src:local(font.ttf)">
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link home" href="index.html">Главная 🏠</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bio" href="about.html">О Нас 📃</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link projects active" href="#">Сервера 🚧</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact" href="links.html">Ссылки 🤙</a>
+        </li>
+      </ul>
+
+      <div class="row" style="margin: 1rem; margin-left: 5rem; margin-right: 5rem;">
+        <div class="col-sm-3">
+            <a style="text-decoration: none"><div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Dreamy! Выживание✨</div>
+                <img class="card-img-top" src="Dreamy.png">
+                <div class="card-body">
+                  <h5 class="card-title">IP: dreamy.20tps.ru</h5>
+                  <p class="card-text">1.16.5 Вайтлист</p>
+                </div>
+              </div>
+            </a>
+      </div>
+        <div class="col-sm-3">
+            <a style="text-decoration: none"><div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Dreamy! BedWars 🛌</div>
+                <img class="card-img-top" src="BedWars.png">
+                <div class="card-body">
+                  <h5 class="card-title">IP: bedwars.20tps.ru</h5>
+                  <p class="card-text">1.12.2 - 1.16.5 Нет вайтлиста</p>
+                </div>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-3">
+          <a style="text-decoration: none"><div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header">OpenGays Nostalgic 🍂</div>
+              <img class="card-img-top" src="OpenGays.png">
+              <div class="card-body">
+                <h5 class="card-title">IP: opengays.20tps.ru</h5>
+                <p class="card-text">1.6.4 Нет вайтлиста</p>
+              </div>
+            </div>
+          </a>
+      </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
